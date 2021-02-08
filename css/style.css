@@ -1,0 +1,50 @@
+/* degug */
+[class*="col-"]{
+  text-align: center;
+}
+
+.grey{
+  background-color: #f9f9f9;
+}
+
+#primo{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+section{
+  margin-bottom: 70px;
+}
+
+section:last-child{
+  margin-bottom: 0;
+}
+
+img{
+  height: 200px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h3{
+  padding: 20px 0;
+}
+
+p{
+  padding-bottom: 10px;
+}
+
+.special{
+  padding-bottom: 30px;
+}
+
+.img-l{
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 50px 0 20px 0;
+  height: 260px;
+
+}
