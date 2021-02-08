@@ -1,5 +1,4 @@
-/* degug */
-[class*="col-"]{
+.container{
   text-align: center;
 }
 
@@ -20,9 +19,6 @@ section:last-child{
   margin-bottom: 0;
 }
 
-img{
-  height: 200px;
-}
 
 h1{
   font-size: 30px;
@@ -40,11 +36,23 @@ p{
   padding-bottom: 30px;
 }
 
-.img-l{
+.col-lg-12.col-md-12.col-xs-12 > img{
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px;
-  margin: 50px 0 20px 0;
-  height: 260px;
+  padding: 30px ;
+  /* margin: 50px 0 20px 0; */
+}
 
+.col-lg-12.col-md-12.col-xs-12:first-child{
+  margin-top: 0;
+}
+
+.col-lg-12.col-md-12.col-xs-12{
+  margin-top: 60px;
+}
+
+/* smarthpone and tablet */
+
+.col-md-12.col-xs-12 > .zero{
+  margin-top: 0;
 }

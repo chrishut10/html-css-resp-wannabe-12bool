@@ -33,6 +33,13 @@
 
 @media all and (max-width: 767px) {
 
+  img{
+    height: 150px;
+  }
+
+  .col-xs-12 img{
+    margin-top: 20px;
+  }
 
   .col-xs-1 {
     width: calc((100% / 12));
@@ -138,6 +145,15 @@
 
 @media all and (min-width:768px) and (max-width: 991px){
 
+  img{
+    height: 200px;
+  }
+
+  .col-xs-12 img{
+    margin-top: 20px;
+  }
+
+
   .col-md-1{
     width: calc((100% / 12));
   }
@@ -241,6 +257,10 @@
 /* breakpoint large devices */
 
 @media all and (min-width:992px) {
+
+  img{
+    height: 200px;
+  }
 
   .col-lg-1 {
     width: calc((100% / 12));
