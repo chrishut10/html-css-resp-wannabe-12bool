@@ -33,13 +33,13 @@
 
 @media all and (max-width: 767px) {
 
-  img{
+  /* img{
     height: 150px;
   }
 
   .col-xs-12 img{
     margin-top: 20px;
-  }
+  } */
 
   .col-xs-1 {
     width: calc((100% / 12));
@@ -145,13 +145,13 @@
 
 @media all and (min-width:768px) and (max-width: 991px){
 
-  img{
+  /* img{
     height: 200px;
   }
 
   .col-xs-12 img{
     margin-top: 20px;
-  }
+  } */
 
 
   .col-md-1{
@@ -258,9 +258,9 @@
 
 @media all and (min-width:992px) {
 
-  img{
+  /* img{
     height: 200px;
-  }
+  } */
 
   .col-lg-1 {
     width: calc((100% / 12));
